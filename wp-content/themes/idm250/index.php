@@ -1,1 +1,2 @@
-<h1>idm250</h1>
+<?php get_header();?>
+<?php get_footer();?>
