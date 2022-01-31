@@ -11,17 +11,12 @@ a{
     text-transform: lowercase;
 }
 
-li.menu-item{
+li{
     display: inline;
     font-family: 'karla';
     display: inline;
     font-size: 1.2rem;
     padding-right: 3rem;
-}
-li.menu-item-38{
-    float: left;
-}
-li.menu-item-35, .menu-item-37, .menu-item-36{
     float: right;
 }
 /*nav
