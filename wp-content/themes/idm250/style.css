@@ -8,43 +8,20 @@ body{
 a{
     color: white;
     text-decoration: none;
+}
+
+li{
+    display: inline;
+    font-family: 'karla';
+    display: inline;
+    font-size: 1rem;
+    padding-right: 3rem;
+    float: right;
     text-transform: lowercase;
 }
+a:hover{color: #e4ffa7;}
 
-li.menu-item{
-    display: inline;
-    font-family: 'karla';
-    display: inline;
-    font-size: 1.2rem;
-    padding-right: 3rem;
-}
-li.menu-item-38{
-    float: left;
-}
-li.menu-item-35, .menu-item-37, .menu-item-36{
-    float: right;
-}
-/*nav
-body{
-    margin: 0;
-    background-color: #0c0a2f;
-}
-
-li{
+h2{
     font-family: 'karla';
     color: white;
-    display: inline;
-    font-size: 1.2rem;
 }
-li{
-    display: inline;
-    float: right;
-}
-.top{
-    font-family: 'karla';
-    padding-top: 1rem;
-}
-
-@media (min-width:360px) {
-    .top{
-    padding-right: 3rem;}}

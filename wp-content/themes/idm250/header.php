@@ -13,7 +13,6 @@
     ?>
 </head>
 <body>
-    
 <?php
 //Registered this menu in functions.php
 wp_nav_menu(

@@ -8,38 +8,46 @@ body{
 a{
     color: white;
     text-decoration: none;
-    text-transform: lowercase;
 }
 
 li{
     display: inline;
     font-family: 'karla';
     display: inline;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-right: 3rem;
     float: right;
+    text-transform: lowercase;
 }
-/*nav
-body{
-    margin: 0;
-    background-color: #0c0a2f;
-}
+a:hover{color: #e4ffa7;}
 
-li{
-    font-family: 'karla';
-    color: white;
-    display: inline;
-    font-size: 1.2rem;
-}
-li{
-    display: inline;
-    float: right;
-}
-.top{
-    font-family: 'karla';
-    padding-top: 1rem;
-}
-
-@media (min-width:360px) {
-    .top{
-    padding-right: 3rem;}}
+div.intro_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 17%;
+    }
+    
+    h1.intro{
+        color: whitesmoke;
+        font-family: 'karla';
+        font-weight: bolder;
+        margin: 0;
+        padding-bottom: 0;
+        font-size: 3rem;
+    }
+    h2.intro{
+        color:#e4ffa7;
+        font-family: 'karla';
+        font-weight: normal;
+        margin: 0;
+        font-size: 1.5rem
+    ;
+    }
+    h3.intro{
+        color: whitesmoke;
+        font-family: 'karla';
+        font-weight: normal;
+        margin: 0;
+        padding-top: 2rem;
+    }
