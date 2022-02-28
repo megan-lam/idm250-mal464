@@ -12,7 +12,9 @@
     wp_head();
     ?>
 </head>
-<body>
+<body <?php body_class(); 
+//check if u need to add to pages with bg image ?>>
+
 <?php
 //Registered this menu in functions.php
 wp_nav_menu(

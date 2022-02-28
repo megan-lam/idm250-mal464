@@ -45,3 +45,12 @@ function register_theme_navigation()
 }
 
 add_action('after_setup_theme', 'register_theme_navigation');
+
+//required files
+require get_template_directory() . '/includes/required.php';
+
+//Theme intialization
+require get_template_directory() . '/includes/setup.php';
+
+//Custom post types
+require get_template_directory() . '/includes/post-types.php';

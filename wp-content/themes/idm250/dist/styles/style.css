@@ -149,14 +149,14 @@ h3.intro{
 /* 404 page*/
 @media (min-width:300px) and (max-width:699px) {
     body.bg{
-     background-image: url("../images/home_small.jpg");
+     background-image: url("../images/home_small.png");
      background-repeat: no-repeat;
      background-size: cover;
      }
  }
   @media (min-width:700px) and (max-width:1279px) {
     body.bg{
-     background-image: url("../images/home_medium.jpg");
+     background-image: url("../images/home_medium.png");
      background-repeat: no-repeat;
      background-size: cover;
      }
@@ -561,4 +561,51 @@ li.list{
     margin-top: 0;
     padding-bottom: 0;
     font-weight: normal;
+}
+.link{
+    font-family: 'karla';
+    color: #E7FFA1;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.caption{
+    text-align: center;
+    font-family: 'karla';
+}
+table {
+    font-family: 'karla';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: none;
+  }
+  .topbtn{
+    background-color: inherit;
+    border: 2px solid #E7FFA1;
+    border-radius: 5px;
+    color: #E7FFA1;
+
+    font-family: 'karla';
+    font-weight: bolder;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .topbtn:hover{
+      color: #0c0a2f;
+      background-color: #E7FFA1;    cursor: pointer;
+  }
+  li.list2{
+    font-family: 'karla';
+    list-style: none;
 }
