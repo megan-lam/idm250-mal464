@@ -520,10 +520,15 @@ li.list{
     justify-content: center;
 }
 .hero_img{
+    display: flex;
+    justify-content: center;
     padding-top: 3rem;
     border-radius: 5px;
     width: 25rem;   
     margin: 0;
+}
+img{
+    padding-top: 2rem;
 }
 
 .vid{
@@ -608,4 +613,76 @@ table {
   li.list2{
     font-family: 'karla';
     list-style: none;
+}
+/*headings*/
+h1{
+    font-family: 'karla';
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    margin: 0;
+}
+h2.head{
+    font-family: 'karla';
+    padding: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+    margin: 0;
+}
+h2.head:after {
+    background-color: #e4ffa7;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    margin-left: 10px;
+  }
+h3,h4{
+    font-family: 'karla';
+    color: #E7FFA1;
+    text-transform: uppercase;
+    margin: 0;
+}
+h5{
+    font-family: 'karla';
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: .2rem;
+}
+h6{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-family: 'karla';
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+    font-weight: normal;
+}
+p{
+    margin-top: 0;
+}
+.wp-block-quote{
+    border-left: 2px solid #E7FFA1;
+    max-width: 35rem;
+}
+p.pullquote{
+    font-size: 1.4rem;
+    font-family: 'karla';
+    font-weight: bold;
+    color: white;
+    padding-left: 2rem;
+}
+figcaption{
+    text-align: center;
+}
+figure{
+    margin: 0;
+}
+.wp-block-table{
+    padding-top: 2rem;
+}
+.wp_block_embed{
+    padding: 2rem 0;
 }
