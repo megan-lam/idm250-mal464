@@ -2,7 +2,20 @@
 /* Template Name: Portfolio Listing */
 ?>
 <?php get_header();?>
+<?php while (have_posts()) : the_post(); ?>
+
+    <div class="">
+
+
+        <div class="">
+            <?php the_content(); ?>
+        </div>
+    </div>
+
+<?php endwhile; ?>
 <h1 class="work_title">MY WORK</h1>
+<?php
+    get_template_part('search-form');?>
 <div class="everything">
 <div class="center">
     <div class="box">

@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Search */
+/* Template Name: Search Results*/
 ?>
 <?php get_header();?>
 <h1 class="work_title">SEARCH</h1>
