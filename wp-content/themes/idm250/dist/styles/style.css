@@ -208,6 +208,7 @@ text-decoration: underline;
 .box2:hover { transform: scale(104%); }
 
 .everything{
+    padding-top: 3rem;
     padding-bottom: 6rem;
 }
 
@@ -502,6 +503,16 @@ max-width: 70ch;
 margin: 0 auto;
 padding: 0 3rem;
 }
+.about_content{
+    color: white;
+    font-family: 'karla'sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    max-width: 100ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+    }
 p.case{
     color: white;
     font-family: 'karla';
