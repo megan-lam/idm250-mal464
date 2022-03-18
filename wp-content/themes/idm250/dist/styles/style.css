@@ -89,7 +89,7 @@ div.intro_text{
 }
 @media (min-width: 900px){
     div.intro_text{
-    padding-top: 20%;
+    padding-top: 15%;
     }
     h1.intro{
     font-size: 3.75rem;
@@ -125,27 +125,6 @@ h3.intro{
     margin: 0;
     padding-top: 2rem;
 }
-.arrow{
-    display: inline;
-    width: 2rem;
-    height: 2rem;
-    vertical-align: middle;
-}
-
-.socials{
-    float: right;
-}
-.socials li{
-    display: block;
-    bottom: 2rem;
-    list-style: none;
-    margin-top: 1.5rem;
-    padding-right: 2rem;
-    height: 2rem;
-    padding-top: 0;
-    width: 2rem;
-} 
-
 /* 404 page*/
 @media (min-width:300px) and (max-width:699px) {
     body.bg{
@@ -265,7 +244,6 @@ font-size: 1rem;
 @media (min-width:1100px){
     .info_text{
         border-left: 2px solid #E7FFA1;
-        height: 7rem;
         max-width: 27rem;
         }
     .work_container{
@@ -279,14 +257,13 @@ font-size: 1rem;
     .box, .box2{
         display: flex;
         justify-content: center;
-        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 
 }
 @media (min-width:861px)and (max-width:1099px){
     .info_text{
         border-left: 2px solid #E7FFA1;
-        height: 50%;
         max-width: 27rem;
         }
     .work_container{
@@ -300,7 +277,7 @@ font-size: 1rem;
     .box, .box2{
         display: flex;
         justify-content: center;
-        padding: 5rem 3rem 0;
+        padding: 0 3rem 5rem;
     }
 }
 @media (max-width:860px){
@@ -327,14 +304,13 @@ font-size: 1rem;
         justify-content: center;
         flex-direction: row-reverse;
         flex-wrap:wrap-reverse;
-        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
 
 @media (max-width:525px){
     .info_text{
         border-left: 2px solid #E7FFA1;
-        height: 7rem;
         max-width: 27rem;
         }
     .work_container, .work_container2{
@@ -352,7 +328,7 @@ font-size: 1rem;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .box2{
         display: flex;
@@ -365,103 +341,6 @@ font-size: 1rem;
     
 }
 
-/* search */
-.searchtext{
-    /*border-bottom: 2px solid #E7FFA1;*/
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'karla';
-    color:rgb(255, 255, 255);
-    text-transform: uppercase;
-    padding-top: 0rem;
-    padding-bottom: 1rem;
-    margin-top: .5rem;
-}
-/*.searchbar{
-    border-radius: 100px;
-    width: 50rem;
-    height: 3rem;
-    box-shadow: 0px 1px 10px rgba(126, 126, 126, 0.25);
-}*/
-.search_center{
-    display: flex;
-    justify-content: center;
-}
-@media (max-width:599px){
-#site-search{
-    font-size: 1rem;
-    width: 15rem;
-}
-}
-.sbutton{
-    font-size: .8rem;
-}
-    
-@media (min-width:600px){
-#site-search{
-    font-size: 1rem;
-    width: 30rem;
-}
-
-.sbutton{
-    font-size: 1.1rem;
-}
-}
-#site-search{
-    font-family: 'karla';
-    color: white;
-    background-color: white;
-    border: none;
-    border-radius: 100px;
-    padding: 14px 28px;
-    cursor: pointer;
-}
-.sbutton{
-    font-family: 'karla';
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #E7FFA1;
-    border: none;
-    color: #0c0a2f;
-    padding:.5rem;
-    border-radius: 100px;
-}
-.btn{
-    font-family: 'karla';
-    font-weight: bold;
-    text-transform: uppercase;
-    -webkit-appearance: button;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 1rem;
-}
-.btn-primary{
-    color: white;
-    background-color: #FB6854;
-    border-color: #FB6854 ;
-}
-.btn:hover{
-    color: #FFA79B;
-}
-
-.sbutton:hover{
-    cursor: pointer;
-    background-color: #FFA79B;
-}
-    a:hover{cursor: pointer;}
 
 /* portfolio detail */
 .single{
@@ -630,7 +509,6 @@ h1{
     font-family: 'karla';
     font-size: 2.5rem;
     margin-bottom: 0;
-    padding-top: 1rem;
     margin: 0;
     color: white;
 }
@@ -706,7 +584,171 @@ figure{
 .wp_block_embed{
     padding: 2rem 0;
 }
-.search-form{
-padding-left: 4rem;
-padding-top: 2rem;
+.searchform{
+    padding-top: 2rem;
+    padding-right: 3rem;
+    text-align: right;
+}
+/*portfolio listing*/
+.proj_name{
+    font-size: 1.6rem;
+}
+.proj_name, .summary{
+    font-family: 'karla';
+    color: white;
+    padding-left: 2rem;
+}
+.summary{
+    font-weight: normal;
+    margin-top: .5rem;
+}
+.proj_name, .class_name{
+    margin-bottom: .2rem;
+}
+.summary{
+font-size: 1rem;
+}
+
+.class_name{
+    font-size: 1.1rem;
+    font-family: 'karla';
+    color: #E7FFA1;
+    padding-left: 2rem;
+    margin-top: 0;
+    font-weight: normal;
+}
+.item, .item2{
+    border-radius: 6px;
+}
+@media (min-width:1100px){
+    .info_text{
+        border-left: 2px solid #E7FFA1;
+        max-width: 27rem;
+        }
+    .work_container{
+        padding-left: 10rem;
+        padding-top: 4.5%;
+    }
+    .work_container2{
+        padding-right: 10rem;
+        padding-top: 4.5%;
+    }
+    .box, .box2{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5rem;
+    }
+
+}
+@media (min-width:861px)and (max-width:1099px){
+    .info_text{
+        border-left: 2px solid #E7FFA1;
+        max-width: 27rem;
+        }
+    .work_container{
+        padding-left: 4rem;
+        padding-top: 4.5%;
+    }
+    .work_container2{
+        padding-right: 4rem;
+        padding-top: 4.5%;
+    }
+    .box, .box2{
+        display: flex;
+        justify-content: center;
+        padding: 0 3rem 5rem;
+    }
+}
+@media (max-width:860px){
+    .info_text{
+        border-left: 2px solid #E7FFA1;
+        max-width: 27rem;
+        }
+    .work_container, .work_container2{
+        padding-top: 1rem;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 3rem;
+    }
+    .box2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        flex-wrap:wrap-reverse;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width:525px){
+    .info_text{
+        border-left: 2px solid #E7FFA1;
+        max-width: 27rem;
+        }
+    .work_container, .work_container2{
+        padding: 2rem;
+        width: 20rem;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .proj_name{
+        font-size: 1.4rem;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+    }
+    .box2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        flex-wrap:wrap-reverse;
+        padding-top: 1rem;
+        
+    }
+    
+}
+.summary{
+    text-transform: none;
+}
+
+.sbutton{
+    font-family: 'karla';
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:#E7FFA1;
+    border: none;
+    color: #0c0a2f;
+    padding: 3px 10px;
+    border-radius: 100px;
+}
+.bar{
+font-family: 'karla';
+font-size: 1rem;
+color: #0c0a2f;
+background-color: white;
+border: none;
+border-radius: 100px;
+padding: 3px 6px;
+cursor: pointer;
+}
+
+.sbutton:hover{
+    cursor: pointer;
+    background-color: #E7FFA1;
+}
+    a:hover{cursor: pointer;}
+
+.main_title{
+    padding-left: 6rem;
 }

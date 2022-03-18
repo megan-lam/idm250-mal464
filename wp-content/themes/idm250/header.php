@@ -23,3 +23,4 @@
 wp_nav_menu(
     [
         'theme_location' => 'primary_menu']);
+get_template_part('search-form');

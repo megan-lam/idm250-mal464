@@ -4,8 +4,6 @@
 <div class="case_content">
 <?php while (have_posts()) : the_post(); ?>
 <div class="">
-  <h1 class=""><?php the_title(); ?>
-  </h1>
 
   <?php the_post_thumbnail(); ?>
 

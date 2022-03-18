@@ -93,3 +93,27 @@ function idm_register_custom_post_type()
     register_post_type('idm-projects', $args);
 }
 add_action('init', 'idm_register_custom_post_type');
+
+function add_post_thumbnails_support()
+{
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme', 'add_post_thumbnails_support');
+
+function idm_get_asset_by_id($attachment_id)
+{
+    // If no image, return false
+    if (!wp_get_attachment_image_url($attachment_id, '')) {
+        return false;
+    }
+    $attachment = get_post($attachment_id);
+
+    return [
+        'alt' => get_post_meta($attachment->ID, '_wp_attachment_image_alt', true),
+        'caption' => $attachment->post_excerpt,
+        'description' => $attachment->post_content,
+        'href' => get_permalink($attachment->ID),
+        'src' => wp_get_attachment_image_url($attachment_id, ''),
+        'title' => $attachment->post_title
+    ];
+}
